@@ -1,0 +1,20 @@
+{
+  "name": "navionics_doxygen_theme",
+  "version": "0.1.0",
+  "description": "Theme for Doxygen Document engine",
+  "directories": {
+    "demo": "demo",
+    "template": "template"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "grunt "
+  },
+  "author": "astaniscia@navionics.com",
+  "license": "ISC",
+  "dependencies": {
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-execute": "^0.2.2",
+    "grunt-run": "^0.6.0"
+  }
+}

@@ -1,0 +1,22 @@
+.navbar-brand>img {
+  display: inline;
+
+}
+
+.page-header {
+  border: none;
+  margin: 70px 0 20px;
+}
+
+.n-hidden{
+  display: none;
+}
+
+
+td.mlabels-right {
+  padding: 10px;
+}
+
+.memname{
+  font-size: 16px;
+}
