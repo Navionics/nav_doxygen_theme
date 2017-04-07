@@ -1,7 +1,7 @@
 {
-  "name": "navionics_doxygen_theme",
+  "name": "nav_doxygen_theme",
   "version": "0.1.0",
-  "description": "Theme for Doxygen Document engine",
+  "description": "git commi",
   "directories": {
     "demo": "demo",
     "template": "template"
