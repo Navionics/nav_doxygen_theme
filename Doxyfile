@@ -11,7 +11,7 @@
 # spaces. See also FILE_PATTERNS and EXTENSION_MAPPING
 # Note: If this tag is empty the current directory is searched.
 
-INPUT                  = ./demo/Headers
+INPUT                  = ./demo/src
 
 
 # The OUTPUT_DIRECTORY tag is used to specify the (relative or absolute) path
@@ -20,6 +20,20 @@ INPUT                  = ./demo/Headers
 # left blank the current directory will be used.
 
 OUTPUT_DIRECTORY       = ./demo
+
+# The PROJECT_NAME tag is a single word (or a sequence of words surrounded by
+# double-quotes, unless you are using Doxywizard) that should identify the
+# project for which the documentation is generated. This name is used in the
+# title of most generated pages and in a few other places.
+# The default value is: My Project.
+
+PROJECT_NAME           = "Navionics iOS Mobile SDK"
+
+# The PROJECT_NUMBER tag can be used to enter a project or revision number. This
+# could be handy for archiving the generated documentation or if some version
+# control system is used.
+
+PROJECT_NUMBER         = 0.0.0
 
 
 
@@ -76,13 +90,13 @@ DOXYFILE_ENCODING      = UTF-8
 # title of most generated pages and in a few other places.
 # The default value is: My Project.
 
-PROJECT_NAME           = "Navionics iOS Mobile SDK"
+## PROJECT_NAME           = "Navionics iOS Mobile SDK"
 
 # The PROJECT_NUMBER tag can be used to enter a project or revision number. This
 # could be handy for archiving the generated documentation or if some version
 # control system is used.
 
-PROJECT_NUMBER         = 0.0.0
+## PROJECT_NUMBER         = 0.0.0
 
 # Using the PROJECT_BRIEF tag one can provide an optional one line description
 # for a project that appears at the top of each page and should give viewer a
@@ -1251,7 +1265,7 @@ HTML_EXTRA_FILES       = ./template/doxy-boot.js \
                          ./template/static/website-styles.css \
                          ./template/static/jquery-2.1.1.min.js \
                          ./template/static/bootstrap.min.css \
-                         ./template/static/bootstrap.min.js 
+                         ./template/static/bootstrap.min.js
 
 
 

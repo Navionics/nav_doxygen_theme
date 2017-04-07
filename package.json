@@ -1,7 +1,7 @@
 {
-  "name": "nav_doxygen_theme",
+  "name": "@navionics/nav_doxygen_theme",
   "version": "0.1.0",
-  "description": "git commi",
+  "description": "Custom Navionics Theme for Doxygen Document engine",
   "directories": {
     "demo": "demo",
     "template": "template"
@@ -10,11 +10,18 @@
     "prestart": "npm install",
     "start": "grunt "
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Navionics/nav_doxygen_theme.git"
+  },
   "author": "astaniscia@navionics.com",
-  "license": "ISC",
+  "license": "UNLICENSED",
   "dependencies": {
     "grunt-browser-sync": "^2.2.0",
     "grunt-execute": "^0.2.2",
     "grunt-run": "^0.6.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-clean": "^1.0.0"
   }
 }

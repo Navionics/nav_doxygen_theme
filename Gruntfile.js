@@ -8,7 +8,7 @@ module.exports = function(grunt) {
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
-
+        clean: ['demo/html'],
         run: {
             demo: {
                 cmd: 'doxygen',
@@ -21,7 +21,7 @@ module.exports = function(grunt) {
                 files: [
                     'template/**/*.*', 'Doxyfile'
                 ],
-                tasks: ['run:demo']
+                tasks: ['clean','run:demo']
             }
         },
 
@@ -39,7 +39,7 @@ module.exports = function(grunt) {
     });
 
     // Load task libraries
-    ['grunt-contrib-watch', 'grunt-run', 'grunt-browser-sync'].forEach(function(taskName) {
+    ['grunt-contrib-clean','grunt-contrib-watch', 'grunt-run', 'grunt-browser-sync'].forEach(function(taskName) {
         grunt.loadNpmTasks(taskName);
     });
 
