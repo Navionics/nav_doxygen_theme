@@ -16,12 +16,10 @@
   },
   "author": "astaniscia@navionics.com",
   "license": "UNLICENSED",
-  "dependencies": {
+  "devDependencies": {
     "grunt-browser-sync": "^2.2.0",
     "grunt-execute": "^0.2.2",
-    "grunt-run": "^0.6.0"
-  },
-  "devDependencies": {
+    "grunt-run": "^0.6.0",
     "grunt-contrib-clean": "^1.0.0"
   }
 }

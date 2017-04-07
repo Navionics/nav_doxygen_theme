@@ -1,6 +1,7 @@
 node_modules/
-demo/*
-demo/src/*
+
 !demo/.gitkeep
 !demo/src/demo.cpp
 !demo/src/README.md
+demo/html
+demo/src
