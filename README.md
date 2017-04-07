@@ -5,8 +5,7 @@ Custom Navionics Theme for Doxygen Document engine
 ## Hot To use it:
 * Move the directories `template` and `Doxyfile` in your preferred space
 * Edit the `Doxyfile` and provide the:
-  * INPUT directory, it's the code directory.
-    * ** NOTE: ** This directory need to contain a Markdown file named `README.md`used as homepage of documentation.
+  * INPUT directory, it's the code directory. **NOTE:** This directory need to contain a Markdown file named `README.md`used as homepage of documentation.
   * OUTPUT_DIRECTORY , it's the directory where you want the site
 * Open the terminal and run the command `doxygen Doxifile`
 
